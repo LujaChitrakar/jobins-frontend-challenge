@@ -1,7 +1,11 @@
 import React, { useState } from "react";
-import shoppingCcart from "../../assets/shopping-cart.png";
-import logo from "../../assets/logo.png";
 import indent from "../../assets/indent-decrease.png";
+import cart from "../../assets/shopping-cart.png";
+import logo from "../../assets/logo.png";
+import home from "../../assets/smart-home.png";
+import star from "../../assets/star.png";
+import plus from "../../assets/circle-plus.png";
+import box from "../../assets/box.png";
 
 const Sidebar = () => {
   const [isOpen, seIsOpen] = useState(true);
@@ -13,7 +17,7 @@ const Sidebar = () => {
   return (
     <div>
       <aside
-        className={`flex flex-col h-screen px-5 py-8 overflow-y-auto bg-white text-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 transition-all duration-300 ease-in dark:border-gray-700 ${
+        className={`flex flex-col h-screen px-5 py-8 overflow-y-auto bg-white text-white   transition-all duration-300 ease-in dark:border-gray-700 ${
           isOpen ? "w-[260px]" : "w-16"
         }`}
       >
@@ -29,7 +33,11 @@ const Sidebar = () => {
                 }`}
               >
                 <img className="h-[24px] w-[28px] " src={logo} alt="logo" />
-                {isOpen && <span>JoBins</span>}
+                {isOpen && (
+                  <span className="text-black text-[22px] font-bold">
+                    JoBins
+                  </span>
+                )}
               </div>
               <div className="flex items-center ">
                 <span className="flex items-center ">
@@ -37,28 +45,45 @@ const Sidebar = () => {
                 </span>
               </div>
             </div>
-            <div className="space-y-4">
-              {isOpen && (
-                <label className="px-3 text-xs text-gray-500 uppercase dark:text-gray-400">
-                  main menu
-                </label>
-              )}
-              <a className="flex">
-                <img src={shoppingCcart} />
-                {isOpen && <span>Dashboard</span>}
-              </a>
-              <a className="flex">
-                <img src={shoppingCcart} />
-                {isOpen && <span>Dashboard</span>}
-              </a>
-              <a className="flex">
-                <img src={shoppingCcart} />
-                {isOpen && <span>Dashboard</span>}
-              </a>
-              <a className="flex">
-                <img src={shoppingCcart} />
-                {isOpen && <span>Dashboard</span>}
-              </a>
+            <div className="space-y-[30px] ">
+              <div className="space-y-4 items-center text-[#8B909A]">
+                {isOpen && (
+                  <label className="px-3 text-[11px]  uppercase ">
+                    main menu
+                  </label>
+                )}
+                <div className="space-y-[8px] transition-all duration-300 ease-in-out">
+                  <a className=" bg-[#F3F4F8] text-[#23272E] font-semibold rounded-[6px] w-[232px] h-[40px]  flex items-center ">
+                    <img className=" mr-[8px] w-[22px] h-[22px]" src={home} />
+                    {isOpen && <span>Dashboard</span>}
+                  </a>
+                  <a className=" hover:bg-[#F3F4F8] hover:text-[#23272E] hover:font-semibold rounded-[6px] w-[232px] h-[40px]  flex items-center">
+                    <img className="mr-[8px] w-[22px] h-[22px]" src={cart} />
+                    {isOpen && <span>Order Management</span>}
+                  </a>
+                  <a className=" hover:bg-[#F3F4F8] hover:text-[#23272E] hover:font-semibold rounded-[6px] w-[232px] h-[40px]  flex items-center">
+                    <img className="  mr-[8px] w-[22px] h-[22px]" src={star} />
+                    {isOpen && <span>Brand</span>}
+                  </a>
+                </div>
+              </div>
+              <div className="space-y-4 items-center text-[#8B909A]">
+                {isOpen && (
+                  <label className="px-3 text-[11px]  uppercase ">
+                    products
+                  </label>
+                )}
+                <div className="space-y-[8px] transition-all duration-300 ease-in-out">
+                  <a className=" hover:bg-[#F3F4F8] hover:text-[#23272E] hover:font-semibold rounded-[6px] w-[232px] h-[40px]  flex items-center">
+                    <img className=" mr-[8px] w-[22px] h-[22px]" src={plus} />
+                    {isOpen && <span>Add Products</span>}
+                  </a>
+                  <a className=" hover:bg-[#F3F4F8] ease-out hover:text-[#23272E] hover:font-semibold rounded-[6px] w-[232px] h-[40px]  flex items-center">
+                    <img className=" mr-[8px] w-[22px] h-[22px]" src={box} />
+                    {isOpen && <span>Products List</span>}
+                  </a>
+                </div>
+              </div>
             </div>
           </nav>
         </div>

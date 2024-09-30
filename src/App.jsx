@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="flex-1">
+      <div className="flex-1 bg-[#f5f5f5]">
         <Navbar />
         {/* Main content goes here */}
       </div>
