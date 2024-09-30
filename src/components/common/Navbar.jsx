@@ -10,7 +10,6 @@ const Navbar = () => {
       <ul className="flex space-x-[24px] items-center">
         <li>
           <div>
-            {" "}
             <span className="bg-red-600 text-white font-bold rounded-full h-4 w-4 flex items-center justify-center text-[10px] absolute ml-[15px] top-6">
               4
             </span>
