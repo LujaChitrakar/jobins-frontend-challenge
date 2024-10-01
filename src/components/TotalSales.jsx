@@ -11,11 +11,11 @@ const TotalSales = () => {
       </div>
       <div className=" border-l  border h-[139px] border-[#DBDADE]"></div>
       <div className="w-[156px] mr-[52px] ">
-        <h1 className="text-[18px] top-[20px] w-[156px] font-semibold">
+        <h1 className="text-[18px] -mt-[10px] w-[156px] font-semibold">
           Total Sales & Costs
         </h1>
         <span className="text-[14px] text-[#8B909A]">Last 7 days</span>
-        <h1 className=" text-[32px] font-bold">$350K</h1>
+        <h1 className=" text-[32px] font-bold mt-[30px]">$350K</h1>
         <div className="mr-[14px]">
           <span className="text-[#1EB564] text-[14px] font-medium mr-[8px]">
             <FontAwesomeIcon icon={faArrowUp} style={{ color: "#1eb564" }} />
