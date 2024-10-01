@@ -45,7 +45,7 @@ const CountryStatistics = () => {
             className="flex items-center ml-[24px] w-[404px] h-[41px] "
           >
             <img
-              className="h-[34px] w-[34px]"
+              className="h-[34px] w-[34px] rounded-full"
               src={data.country_Img_name}
               alt=""
             />
