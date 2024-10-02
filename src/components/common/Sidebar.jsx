@@ -9,7 +9,6 @@ import box from "../../assets/box.png";
 
 const Sidebar = () => {
   const [isOpen, seIsOpen] = useState(true);
-  console.log(isOpen);
 
   const toggleSidebar = () => {
     seIsOpen(!isOpen);

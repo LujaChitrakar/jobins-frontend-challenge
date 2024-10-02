@@ -75,7 +75,7 @@ const UserDetails = () => {
         <h1 className="">Completed</h1>
         <h1 className="">Canceled</h1>
       </div>
-      <div className="border-b border-[1px] absolute ml-[15px] mt-[220px] border-[#0F60FF] w-[100px]"></div>
+      <div className="border-b border-[1px] absolute ml-[16px] mt-[220px] border-[#0F60FF] w-[100px]"></div>
     </div>
   );
 };
