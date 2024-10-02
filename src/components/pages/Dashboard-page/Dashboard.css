@@ -27,6 +27,6 @@
 @media (min-width: 1025px) {
   .dashboard {
     max-width: 1200px;
-    margin: 0 auto; /* Center the dashboard on larger screens */
+    margin: 0 auto;
   }
 }

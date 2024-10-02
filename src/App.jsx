@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Navbar from "./components/common/Navbar";
 import Sidebar from "./components/common/Sidebar";
 import Dashboard from "./components/pages/Dashboard-page/Dashboard";
