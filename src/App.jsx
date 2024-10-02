@@ -1,14 +1,15 @@
 import "./App.css";
 import Navbar from "./components/common/Navbar";
 import Sidebar from "./components/common/Sidebar";
-
-import Dashboard from "./components/pages/Dashboard";
+import Dashboard from "./components/pages/Dashboard-page/Dashboard";
 
 function App() {
   return (
-    <div className="flex">
-      <Sidebar />
-      <div className="flex-1 bg-[#f5f5f5]">
+    <div className="app-container">
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+      <div className="main-content">
         <Navbar />
         <Dashboard />
       </div>

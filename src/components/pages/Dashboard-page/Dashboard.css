@@ -1,0 +1,32 @@
+.dashboard-header {
+  display: flex;
+  margin-left: 24px;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.dashboard-content {
+  margin-left: 24px;
+}
+
+@media (max-width: 600px) {
+  .dashboard-header,
+  .dashboard-content {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .dashboard-header,
+  .dashboard-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1025px) {
+  .dashboard {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the dashboard on larger screens */
+  }
+}

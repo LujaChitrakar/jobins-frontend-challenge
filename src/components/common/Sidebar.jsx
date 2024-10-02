@@ -17,7 +17,7 @@ const Sidebar = () => {
   return (
     <div>
       <aside
-        className={`flex flex-col h-screen px-5 py-8 overflow-y-auto bg-white text-white   transition-all duration-300 ease-in dark:border-gray-700 ${
+        className={`flex flex-col h-screen px-5 py-8  bg-white text-white   transition-all duration-300 ease-in dark:border-gray-700 ${
           isOpen ? "w-[260px]" : "w-16"
         }`}
       >
