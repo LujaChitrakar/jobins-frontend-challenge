@@ -53,7 +53,7 @@ const CountryStatistics = () => {
               <h2 className="text-[15px] font-semibold ">
                 {data.country_value}
               </h2>
-              <span className="text-[13px] text-[#8B909A]">
+              <span className="text-[13px] w-[83px] text-[#8B909A]">
                 {data.country_name}
               </span>
             </div>

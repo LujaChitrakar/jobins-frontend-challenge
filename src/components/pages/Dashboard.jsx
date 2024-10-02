@@ -4,6 +4,7 @@ import TotalProfit from "../TotalProfit";
 import CountryStatistics from "../CountryStatistics";
 import UserDetails from "../UserDetails";
 import FilterSection from "../FilterSection";
+import TableSection from "../TableSection";
 
 const Dashboard = () => {
   return (
@@ -16,6 +17,7 @@ const Dashboard = () => {
       <div className="ml-6 ">
         <UserDetails />
         <FilterSection />
+        <TableSection />
       </div>
     </div>
   );

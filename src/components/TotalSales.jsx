@@ -11,7 +11,7 @@ const TotalSales = () => {
       </div>
       <div className=" border-l  border h-[139px] border-[#DBDADE]"></div>
       <div className="w-[156px] mr-[52px] ">
-        <h1 className="text-[18px] -mt-[10px] w-[156px] font-semibold">
+        <h1 className="text-[18px] -mt-[10px] w-[165px] h-[26px] spacing font-semibold">
           Total Sales & Costs
         </h1>
         <span className="text-[14px] text-[#8B909A]">Last 7 days</span>
@@ -21,8 +21,8 @@ const TotalSales = () => {
             <FontAwesomeIcon icon={faArrowUp} style={{ color: "#1eb564" }} />
             8.56K
           </span>
-          <span className="text-[14px] font-medium text-[#8B909A] w-[84px]">
-            vs last 7 days
+          <span className="text-[14px] font-medium text-[#8B909A] w-[96px]">
+            vs last 7days
           </span>
         </div>
       </div>
