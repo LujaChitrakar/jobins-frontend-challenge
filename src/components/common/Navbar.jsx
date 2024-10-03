@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-regular-svg-icons"; // Import the specific icon
-import avatar from "../../assets/avatar1.png";
+import avatar from "../../assets/avatar-profile.png";
 
 const Navbar = () => {
   return (
