@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import arrowDown from "../assets/chevron-down.png";
-import searchImg from "../assets/search.png";
+import arrowDown from "../../assets/chevron-down.png";
+import searchImg from "../../assets/search.png";
 
 const FilterSection = () => {
   const [search, setSearch] = useState("");

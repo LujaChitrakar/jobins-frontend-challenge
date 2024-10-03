@@ -1,10 +1,10 @@
 import React from "react";
-import TotalSales from "../../TotalSales";
-import TotalProfit from "../../TotalProfit";
-import CountryStatistics from "../../CountryStatistics";
-import UserDetails from "../../UserDetails";
-import FilterSection from "../../FilterSection";
-import TableSection from "../../TableSection";
+import TotalSales from "../../dashboard/TotalSales";
+import TotalProfit from "../../dashboard/TotalProfit";
+import CountryStatistics from "../../dashboard/CountryStatistics";
+import UserDetails from "../../dashboard/UserDetails";
+import FilterSection from "../../dashboard/FilterSection";
+import TableSection from "../../dashboard/TableSection";
 import "./Dashboard.css";
 
 const Dashboard = () => {

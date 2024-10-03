@@ -1,5 +1,5 @@
 import React from "react";
-import yen from "../assets/yen.png";
+import yen from "../../assets/yen.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons/faArrowUp";

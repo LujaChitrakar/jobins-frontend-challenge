@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ordersData from "../components/Orders.json";
+import ordersData from "../data/Orders.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChevronLeft,

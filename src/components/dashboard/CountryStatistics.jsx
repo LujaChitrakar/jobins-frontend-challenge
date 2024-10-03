@@ -1,10 +1,10 @@
 import React from "react";
 import ProgressBar from "./ProgressBar";
-import UsFlag from "../assets/us.png";
-import BrazilFlag from "../assets/brazil.png";
-import AusFlag from "../assets/aus.png";
-import arrowUp from "../assets/arrow-up.png";
-import arrowDown from "../assets/arrow-down.png";
+import UsFlag from "../../assets/us.png";
+import BrazilFlag from "../../assets/brazil.png";
+import AusFlag from "../../assets/aus.png";
+import arrowUp from "../../assets/arrow-up.png";
+import arrowDown from "../../assets/arrow-down.png";
 
 const CountryStatistics = () => {
   const countries = [
